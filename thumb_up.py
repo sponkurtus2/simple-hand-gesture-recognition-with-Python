@@ -29,7 +29,7 @@ while True:
 
     # Verifica si se detectaron múltiples manos en la imagen
     if results.multi_hand_landmarks:
-        # Itera sobre todas las manos detectadas
+        # Itera sobre todas las manos detectadas7
         for landmarks in results.multi_hand_landmarks:
             # Obtiene las coordenadas de los extremos de los dedos
             thumb_tip = landmarks.landmark[mp_hands.HandLandmark.THUMB_TIP]
